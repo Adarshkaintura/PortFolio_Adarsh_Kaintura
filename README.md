@@ -1,6 +1,4 @@
-# ![Portfolio Banner](URL_TO_YOUR_IMAGE)
-
-# 🚀 Adarsh Kaintura – Portfolio Website  
++# 🚀 Adarsh Kaintura – Portfolio Website  
 
 Welcome to my personal portfolio website!  
 This project showcases my skills, projects, and achievements as a **Computer Science Engineer, Full Stack Developer, and AI Enthusiast**.  
