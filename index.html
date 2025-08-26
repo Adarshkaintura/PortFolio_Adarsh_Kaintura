@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adarsh Kaintura - Computer Science Engineer</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <canvas id="canvas"></canvas>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <div class="profile-image">
+            <img src="1741079498404.jpeg" alt="adk" />
+          </div>
+
+          <h1>ADARSH KAINTURA</h1>
+          <p> 
+            Computer Science Engineer | Full Stack Developer | AI Enthusiast
+          </p>
+          <div class="tech-stack">
+            <div class="tech-item">Cloud Computing</div>
+            <div class="tech-item">MERN Stack</div>
+            <div class="tech-item">Java Development</div>
+            <div class="tech-item">Machine Learning</div>
+          </div>
+          <div class="resume-section">
+            <a href="#" class="resume-btn" onclick="downloadResume()"
+              >📄 DOWNLOAD RESUME</a
+            >
+          </div>
+        </div>
+        <div class="scroll-indicator">
+          <div style="font-size: 2rem">↓</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section" id="projects">
+      <div class="container">
+        <h2 class="section-title">PROJECTS DIMENSION</h2>
+
+        <!-- Cloud Computing Projects -->
+        <!-- <div class="project-category">
+          <h3 class="category-title">☁️ Cloud Computing Projects</h3>
+          <div class="projects-grid">
+            <div class="project-card">
+              <div class="project-image">☁️</div>
+              <h3>Scalable Microservices Platform</h3>
+              <p>
+                Built a cloud-native microservices architecture using AWS ECS,
+                Lambda, and API Gateway. Implemented auto-scaling and load
+                balancing for high availability.
+              </p>
+              <a href="#" class="project-link">View Project</a>
+            </div>
+            <div class="project-card">
+              <div class="project-image">🚀</div>
+              <h3>CI/CD Pipeline Automation</h3>
+              <p>
+                Designed and implemented automated deployment pipelines using
+                Jenkins, Docker, and Kubernetes for seamless application
+                delivery.
+              </p>
+              <a href="#" class="project-link">View Project</a>
+            </div>
+            <div class="project-card">
+              <div class="project-image">📊</div>
+              <h3>Cloud Analytics Dashboard</h3>
+              <p>
+                Created real-time analytics platform using AWS CloudWatch,
+                ElasticSearch, and Kibana for monitoring cloud infrastructure
+                performance.
+              </p>
+              <a href="#" class="project-link">View Project</a>
+            </div>
+            <div class="project-card">
+              <div class="project-image">🔐</div>
+              <h3>Serverless Security Framework</h3>
+              <p>
+                Developed a comprehensive security framework using AWS Lambda,
+                CloudTrail, and GuardDuty for threat detection and response.
+              </p>
+              <a href="#" class="project-link">View Project</a>
+            </div>
+          </div>
+        </div> -->
+
+        <!-- MERN Stack Projects -->
+      <div class="project-category">
+  <h3 class="category-title">🌐 MERN Stack Projects</h3>
+  <div class="projects-grid">
+
+    <!-- Example project card (placeholder until I have real project details) -->
+    <div class="project-card">
+      <div class="project-image">🗳️</div>
+      <h3>Janata Pulse Voting App</h3>
+      <p>Developed secure one-person-one-vote logic using Google OAuth and unique Firebase user IDs.Implemented a mobile-first, real-time UI using Firebase Realtime Database and React hooks.</p>
+      <a href="https://github.com/Adarshkaintura/Janata-Pulse-Secure-Realtime-Voting-App-Firebase-React-" class="project-link" target="_blank">View Project</a>
+    </div>
+
+    <div class="project-card">
+      <div class="project-image">🎵</div>
+      <h3>Play Cool Music Player</h3>
+      <p>A sleek MERN music player with playlist support, real-time controls, and responsive UI built in React and Node.js with MongoDB storage.</p>
+      <a href="https://github.com/Adarshkaintura/PlayCool-Music-Player" class="project-link" target="_blank">View Project</a>
+    </div>
+
+    <!-- Additional detected MERN projects will go here -->
+
+  </div>
+</div>
+
+
+        <!-- Java Development Projects -->
+        <!-- <div class="project-category">
+          <h3 class="category-title">☕ Java Development Projects</h3>
+          <div class="projects-grid">
+            <div class="project-card">
+              <div class="project-image">🏦</div>
+              <h3>Banking Management System</h3>
+              <p>
+                Enterprise-level banking application using Spring Boot,
+                Hibernate, and MySQL with advanced security features and
+                transaction management.
+              </p>
+              <a href="#" class="project-link">View Project</a>
+            </div>
+            <div class="project-card">
+              <div class="project-image">📊</div>
+              <h3>REST API Framework</h3>
+              <p>
+                Scalable RESTful API framework using Spring Boot, JWT
+                authentication, and PostgreSQL with comprehensive documentation
+                and testing.
+              </p>
+              <a href="#" class="project-link">View Project</a>
+            </div>
+            <div class="project-card">
+              <div class="project-image">🎮</div>
+              <h3>Multiplayer Game Server</h3>
+              <p>
+                Real-time multiplayer game server using Java NIO, WebSockets,
+                and Redis for session management and leaderboard functionality.
+              </p>
+              <a href="#" class="project-link">View Project</a>
+            </div>
+            <div class="project-card">
+              <div class="project-image">📈</div>
+              <h3>Stock Trading Algorithm</h3>
+              <p>
+                Algorithmic trading system with real-time market data
+                processing, risk management, and automated trading strategies
+                using Java 11+.
+              </p>
+              <a href="#" class="project-link">View Project</a>
+            </div>
+          </div>
+        </div> -->
+
+        <!-- Machine Learning Projects -->
+        <div class="project-category">
+  <h3 class="category-title">🚀 Machine Learning Projects</h3>
+  <div class="projects-grid">
+
+    <div class="project-card">
+      <div class="project-image">📺</div>
+      <h3>Anime Recommendation System</h3>
+      <p>Recommends anime based on user preferences using Jupyter Notebook workflows.</p>
+      <a href="https://github.com/Adarshkaintura/Anime-Reccomendation-system" class="project-link" target="_blank">View Project</a>
+    </div>
+
+    <div class="project-card">
+      <div class="project-image">🎬</div>
+      <h3>Play Reviews Sentiment Analysis</h3>
+      <p>Analyzes IMDb movie reviews with Streamlit, BeautifulSoup, and TextBlob for sentiment feedback.</p>
+      <a href="https://github.com/Adarshkaintura/Play-Reviews-Sentiment-Analysis" class="project-link" target="_blank">View Project</a>
+    </div>
+
+    <div class="project-card">
+      <div class="project-image">📈</div>
+      <h3>S&P 500 Stock Prediction</h3>
+      <p>Uses a Random Forest model in a Jupyter Notebook to predict stock movement trends (high or low).</p>
+      <a href="https://github.com/Adarshkaintura/S-and-P-500-Stock-Prediction" class="project-link" target="_blank">View Project</a>
+    </div>
+
+    <div class="project-card">
+      <div class="project-image">📄</div>
+      <h3>AutoDoc‑AI</h3>
+      <p>A Python app that extracts and summarizes key information from documents using AI-driven analysis.</p>
+      <a href="https://github.com/Adarshkaintura/AutoDoc-AI" class="project-link" target="_blank">View Project</a>
+    </div>
+
+  </div>
+</div>
+
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+      <div class="container">
+        <h2 class="section-title">ESTABLISH CONNECTION</h2>
+        <form class="contact-form" onsubmit="handleSubmit(event)">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" required />
+          </div>
+          <div class="form-group">
+            <label for="reason">Why are you contacting me?</label>
+            <textarea
+              id="reason"
+              name="reason"
+              rows="5"
+              placeholder="Tell me about your project, collaboration idea, or how we can work together..."
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="submit-btn">TRANSMIT MESSAGE</button>
+        </form>
+      </div>
+    </section>
+
+    <script>
+      // Three.js Black Hole Animation
+      let scene, camera, renderer, blackHole, stars;
+
+      function initThreeJS() {
+        scene = new THREE.Scene();
+        camera = new THREE.PerspectiveCamera(
+          75,
+          window.innerWidth / window.innerHeight,
+          0.1,
+          1000
+        );
+        renderer = new THREE.WebGLRenderer({
+          canvas: document.getElementById("canvas"),
+          alpha: true,
+        });
+        renderer.setSize(window.innerWidth, window.innerHeight);
+
+        // Create black hole
+        const blackHoleGeometry = new THREE.SphereGeometry(2, 32, 32);
+        const blackHoleMaterial = new THREE.ShaderMaterial({
+          uniforms: {
+            time: { value: 1.0 },
+          },
+          vertexShader: `
+                    varying vec2 vUv;
+                    void main() {
+                        vUv = uv;
+                        gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);
+                    }
+                `,
+          fragmentShader: `
+                    uniform float time;
+                    varying vec2 vUv;
+                    void main() {
+                        vec2 center = vec2(0.5, 0.5);
+                        float dist = distance(vUv, center);
+                        float angle = atan(vUv.y - center.y, vUv.x - center.x);
+                        float spiral = sin(angle * 8.0 + time * 2.0 - dist * 20.0);
+                        float intensity = (1.0 - dist) * (0.5 + 0.5 * spiral);
+                        gl_FragColor = vec4(0.2, 0.4, intensity, 1.0);
+                    }
+                `,
+        });
+        blackHole = new THREE.Mesh(blackHoleGeometry, blackHoleMaterial);
+        scene.add(blackHole);
+
+        // Create stars
+        const starsGeometry = new THREE.BufferGeometry();
+        const starsCount = 10000;
+        const positions = new Float32Array(starsCount * 3);
+
+        for (let i = 0; i < starsCount * 3; i++) {
+          positions[i] = (Math.random() - 0.5) * 2000;
+        }
+
+        starsGeometry.setAttribute(
+          "position",
+          new THREE.BufferAttribute(positions, 3)
+        );
+        const starsMaterial = new THREE.PointsMaterial({
+          color: 0x4a90e2,
+          size: 2,
+        });
+        stars = new THREE.Points(starsGeometry, starsMaterial);
+        scene.add(stars);
+
+        camera.position.z = 10;
+      }
+
+      function animate() {
+        requestAnimationFrame(animate);
+
+        // Rotate black hole
+        blackHole.rotation.z += 0.01;
+        blackHole.material.uniforms.time.value += 0.05;
+
+        // Rotate stars
+        stars.rotation.x += 0.0005;
+        stars.rotation.y += 0.001;
+
+        renderer.render(scene, camera);
+      }
+
+      // Initialize Three.js
+      initThreeJS();
+      animate();
+
+      // Handle window resize
+      window.addEventListener("resize", () => {
+        camera.aspect = window.innerWidth / window.innerHeight;
+        camera.updateProjectionMatrix();
+        renderer.setSize(window.innerWidth, window.innerHeight);
+      });
+
+      // Form submission
+      function handleSubmit(event) {
+        event.preventDefault();
+        const formData = new FormData(event.target);
+        const data = Object.fromEntries(formData);
+
+        alert(
+          `Message transmitted successfully!\n\nName: ${data.name}\nEmail: ${data.email}\nPhone: ${data.phone}\nReason: ${data.reason}\n\nI'll establish connection soon!`
+        );
+        event.target.reset();
+      }
+
+      // Resume download
+      function downloadResume() {
+        alert(
+          "Resume download initiated! 🚀\n\nIn a real implementation, this would download your actual resume PDF file."
+        );
+      }
+
+      // Smooth scrolling for links
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+          const target = document.querySelector(this.getAttribute("href"));
+          if (target) {
+            target.scrollIntoView({ behavior: "smooth" });
+          }
+        });
+      });
+
+      // Add scroll animations
+      const observerOptions = {
+        threshold: 0.1,
+        rootMargin: "0px 0px -50px 0px",
+      };
+
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.style.opacity = "1";
+            entry.target.style.transform = "translateY(0)";
+          }
+        });
+      }, observerOptions);
+
+      // Observe project cards
+      document.querySelectorAll(".project-card").forEach((card) => {
+        card.style.opacity = "0";
+        card.style.transform = "translateY(50px)";
+        card.style.transition = "opacity 0.6s ease, transform 0.6s ease";
+        observer.observe(card);
+      });
+    </script>
+  </body>
+</html>
